@@ -1,0 +1,42 @@
+﻿<!DOCTYPE />
+<html>
+<head>
+    <title>Calliope</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="../img/front/images/favicon.gif" />
+    <link rel="stylesheet" type="text/css" href=@Url.Content("../css/front/style.css") />
+
+</head>
+<body>
+    <!--Header Begin-->
+    <div id="header">
+        <div class="center">
+            <div id="logo"><img src="~/img/front/images/logo-levio-blanc.png" width="120px" height="50px"/></div>
+            <!--Menu Begin-->
+            <div id="menu">
+                <ul>
+                    <li><a class="active" href="index.html"><span>Home</span></a></li>
+                    <li><a href="about.html"><span>About</span></a></li>
+                    <li><a href="#"><span>Services</span></a></li>
+                    <li><a href="#"><span>Contact</span></a></li>
+                </ul>
+            </div>
+            <!--Menu END-->
+        </div>
+    </div>
+    <!--Header END-->
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <!--Footer Begin-->
+    <div id="footer">
+        <div class="foot"> <span>Calliope</span> by <a href="">Towfiq I.</a> is licensed under a <a href="">Creative Commons Attribution 3.0 Unported License.</a> </div>
+    </div>
+    <!--Footer END-->
+    
+</body>
+</html>
+
+
